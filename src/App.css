@@ -1,0 +1,44 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-counter-container {
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  box-shadow: 1px -1px 20px rgba(0, 0, 0, 0.15);
+}
+
+.word-counter-container h2 {
+  font-size: 30px;
+}
+
+.word-counter-container textarea {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: 2px solid #14213d;
+  border-radius: 8px;
+  padding: 24px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  resize: none;
+  max-width: 800px;
+  line-height: 2;
+  margin: 20px 10px 40px auto;
+}
+
+.word-counter-container .word-count {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.word-counter-container .word-count span {
+  font-size: 30px;
+}
